@@ -1,0 +1,71 @@
+html *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  .robotito{
+    position: fixed;
+    top:100px;
+  }
+.fondo-robot{
+    background-image: url(assets/home.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    width:100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.pie-pag{
+  background-color: rgb(7, 7, 7);
+  height: 5vh;
+}
+.titulo{
+  color: white;
+}
+.container-home{
+  background: rgb(24,229,232);
+  background: linear-gradient(0deg, rgba(24,229,232,1) 3%, rgba(27,56,194,1) 54%, rgba(3,3,3,1) 84%);
+}
+.cards-container{
+  display: flex;
+}
+.card{
+  margin:1rem;
+}
+.subtitulo{
+  background: rgb(103, 13, 155);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.img-nosotros{
+  height:50rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.about-fondo{
+  background-image: url(/assets/ESTRELLITAS-ABOUT.png);
+  background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+}
+.container-about-img{
+  display: flex;
+  justify-content: space-around;
+}
+.home-contact{
+  background: rgb(24,229,232);
+  background: linear-gradient(0deg, rgba(24,229,232,1) 3%, rgba(27,56,194,1) 54%, rgba(3,3,3,1) 84%);
+  height: 40vh;
+}
+.txt{
+  color: aliceblue;
+  margin-left: 1rem;
+}
+
