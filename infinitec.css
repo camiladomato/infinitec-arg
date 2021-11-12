@@ -6,6 +6,7 @@ html *{
   .robotito{
     position: fixed;
     top:100px;
+    left:40px;
   }
 .fondo-robot{
     background-image: url(assets/home.png);
